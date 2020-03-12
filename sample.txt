@@ -1,0 +1,12 @@
+db:'dsmcdr4b'
+user:'etl'
+pswd:'etl_d3v'
+
+Feature:something
+  Scenario:something1
+given:'check the file in table'
+query:'select * from table'
+when:'check if file'
+query:'select * from table'
+then:'check if something else'
+query:'select * from table'
